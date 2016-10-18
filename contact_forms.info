@@ -1,7 +1,8 @@
 ; $Id:
 name = Contact Forms
 description = Creates individual contact pages from contact form categories.
-dependencies[] = contact
+dependencies[] = drupal:contact
+dependencies[] = drupal:system (>=7.40)
 core = 7.x
 package = Contact Forms
 files[] = contact_forms.module

@@ -1,8 +1,9 @@
 name = Contact Forms Translation
 description = Makes contact forms additions available for translation.
-dependencies[] = contact
 dependencies[] = contact_forms
-dependencies[] = locale
+dependencies[] = drupal:contact
+dependencies[] = drupal:locale
+dependencies[] = drupal:system (>=7.40)
 dependencies[] = i18n
 dependencies[] = i18n_contact
 dependencies[] = i18n_string
